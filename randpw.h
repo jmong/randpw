@@ -5,6 +5,9 @@
  * Joe Mong
  * 
  * Changelog:
+ *   1.0.1 [2015-03-06]
+ *     - Fixed exclude lower- and upper-case alpha options ignored.
+ *     - Updated readme.md.
  *   1.0.0 [2015-02-18]
  */
 

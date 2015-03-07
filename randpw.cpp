@@ -131,10 +131,10 @@ main(int argc, char **argv) {
     if ( opt_wo_num == 0 )
         candidateset_buf += NUMBERS;
     /* Include upper case letters */
-    if ( opt_wo_lcalpha == 0 )
+    if ( opt_wo_ucalpha == 0 )
         candidateset_buf += UC_ALPHA;
     /* Include lower case letters */
-    if ( opt_wo_ucalpha == 0 )
+    if ( opt_wo_lcalpha == 0 )
         candidateset_buf += LC_ALPHA;
     /* Include symbols */
     if ( opt_wo_sym == 0 )
