@@ -159,8 +159,7 @@ main(int argc, char **argv) {
     for (int i = 0; i < opt_iter; i++) {
         pw_buf.clear();    
         for (int i = 0; i < pw_len; ++i) {
-            string s(1, get_random_char(candidateset_buf));    // overloaded string ctor from char 
-            pw_buf += s;
+            pw_buf += get_random_char(candidateset_buf);
         }
         
         fprintf(stdout, "%s\n", pw_buf.c_str());
